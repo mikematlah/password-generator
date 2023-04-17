@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body >
+        <div class="header">
+            <div class="toggler">
+                <p>Dark</p>
+                <label class="switch">
+                    <input id="toggler" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                <p>Light</p>
+            </div>
+           
+            <h1>Generate a <span>random password</span></h1>
+            
+            <p>Never use an insecure password again.</p>
+            <div class="generator">
+                
+                <input id="input-el" type="text" placeholder="enter password length">
+                <div class="checkbox">
+                    <input type="checkbox" id="numbers-only" name="only_numbers" value="numbers">
+                    <label  class='checkmark' for="numbers-only">Numbers only</label><br>
+                </div>
+               
+                <button id="generate-btn">Generate passwords</button>   
+               
+            </div>
+            
+        </div>
+        <div class="passwords">
+            <div class='password' id="password-one">
+                
+            </div>
+            <div class='password' id="password-two">
+                
+            </div>
+
+        </div>
+     
+        <script src="index.js"></script>
+    </body>
+</html>
